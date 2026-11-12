@@ -1,0 +1,168 @@
+{
+  "lens1_revenue": {
+    "champion_info": {
+      "champion_model": "Ridge",
+      "selection_method": "Lowest Validation WAPE",
+      "validation_wape": 30.54,
+      "unbiased_test_wape": 23.96,
+      "test_mae": 8734.59,
+      "test_rmse": 11943.78,
+      "test_r2": 0.4316
+    },
+    "Ridge": {
+      "validation": {
+        "WAPE_percent": 30.54,
+        "MAE": 8734.59
+      },
+      "test": {
+        "WAPE_percent": 23.96,
+        "MAE": 8734.59,
+        "RMSE": 11943.78,
+        "R2_Score": 0.4316
+      }
+    },
+    "Stacking_Ensemble": {
+      "validation": {
+        "WAPE_percent": 30.66,
+        "MAE": 8874.45
+      },
+      "test": {
+        "WAPE_percent": 24.35,
+        "MAE": 8874.45,
+        "RMSE": 12332.25,
+        "R2_Score": 0.394
+      }
+    },
+    "XGBoost": {
+      "validation": {
+        "WAPE_percent": 31.32,
+        "MAE": 9748.63
+      },
+      "test": {
+        "WAPE_percent": 26.75,
+        "MAE": 9748.63,
+        "RMSE": 13251.23,
+        "R2_Score": 0.3004
+      }
+    },
+    "Random_Forest": {
+      "validation": {
+        "WAPE_percent": 32.17,
+        "MAE": 10253.93
+      },
+      "test": {
+        "WAPE_percent": 28.13,
+        "MAE": 10253.93,
+        "RMSE": 13962.09,
+        "R2_Score": 0.2233
+      }
+    },
+    "LightGBM": {
+      "validation": {
+        "WAPE_percent": 33.61,
+        "MAE": 11170.97
+      },
+      "test": {
+        "WAPE_percent": 30.65,
+        "MAE": 11170.97,
+        "RMSE": 15853.86,
+        "R2_Score": -0.0014
+      }
+    },
+    "Seasonal_Naive": {
+      "validation": {
+        "WAPE_percent": 46.22,
+        "MAE": 15728.64
+      },
+      "test": {
+        "WAPE_percent": 43.15,
+        "MAE": 15728.64,
+        "RMSE": 20831.72,
+        "R2_Score": -0.729
+      }
+    }
+  },
+  "lens2_demand": {
+    "champion_info": {
+      "champion_model": "Ridge",
+      "selection_method": "Lowest Validation WAPE",
+      "validation_wape": 53.34,
+      "unbiased_test_wape": 52.52,
+      "test_mae": 4.59,
+      "test_rmse": 7.3,
+      "test_r2": 0.477
+    },
+    "Ridge": {
+      "validation": {
+        "WAPE_percent": 53.34,
+        "MAE": 4.59
+      },
+      "test": {
+        "WAPE_percent": 52.52,
+        "MAE": 4.59,
+        "RMSE": 7.3,
+        "R2_Score": 0.477
+      }
+    },
+    "Stacking_Ensemble": {
+      "validation": {
+        "WAPE_percent": 54.6,
+        "MAE": 4.69
+      },
+      "test": {
+        "WAPE_percent": 53.68,
+        "MAE": 4.69,
+        "RMSE": 7.31,
+        "R2_Score": 0.4753
+      }
+    },
+    "Random_Forest": {
+      "validation": {
+        "WAPE_percent": 57.07,
+        "MAE": 4.77
+      },
+      "test": {
+        "WAPE_percent": 54.52,
+        "MAE": 4.77,
+        "RMSE": 7.42,
+        "R2_Score": 0.4599
+      }
+    },
+    "LightGBM": {
+      "validation": {
+        "WAPE_percent": 63.01,
+        "MAE": 5.44
+      },
+      "test": {
+        "WAPE_percent": 62.16,
+        "MAE": 5.44,
+        "RMSE": 8.03,
+        "R2_Score": 0.3668
+      }
+    },
+    "XGBoost": {
+      "validation": {
+        "WAPE_percent": 64.46,
+        "MAE": 5.39
+      },
+      "test": {
+        "WAPE_percent": 61.67,
+        "MAE": 5.39,
+        "RMSE": 8.05,
+        "R2_Score": 0.3649
+      }
+    },
+    "Seasonal_Naive": {
+      "validation": {
+        "WAPE_percent": 75.16,
+        "MAE": 6.37
+      },
+      "test": {
+        "WAPE_percent": 72.85,
+        "MAE": 6.37,
+        "RMSE": 10.21,
+        "R2_Score": -0.0223
+      }
+    }
+  }
+}

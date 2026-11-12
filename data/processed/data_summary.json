@@ -1,0 +1,49 @@
+{
+    "selected_items": [
+        "LUNCH",
+        "BREAKFAST",
+        "CHICKEN RICE FULL",
+        "CHICKEN CURRY",
+        "TEA",
+        "ROLLS",
+        "PATIS",
+        "SAMOSA",
+        "DATE CAKE",
+        "BUTTER CAKE",
+        "WATALAPPAN"
+    ],
+    "date_range": [
+        "2024-03-27",
+        "2026-09-07"
+    ],
+    "total_calendar_days": 895,
+    "total_revenue_handmade": 34322871.0,
+    "mean_daily_revenue": 38349.57653631285,
+    "total_valid_store_revenue": 72957875.66,
+    "product_qty_totals": {
+        "LUNCH": 18231.5,
+        "BREAKFAST": 15670.2,
+        "CHICKEN RICE FULL": 3594.0,
+        "CHICKEN CURRY": 10460.0,
+        "TEA": 10973.0,
+        "ROLLS": 14958.0,
+        "PATIS": 4757.0,
+        "SAMOSA": 1851.0,
+        "DATE CAKE": 2320.01,
+        "BUTTER CAKE": 1838.04,
+        "WATALAPPAN": 4566.0
+    },
+    "historical_avg_prices": {
+        "LUNCH": 644.3,
+        "BREAKFAST": 545.88,
+        "CHICKEN RICE FULL": 1274.11,
+        "CHICKEN CURRY": 259.87,
+        "TEA": 199.93,
+        "ROLLS": 119.6,
+        "PATIS": 99.71,
+        "SAMOSA": 120.43,
+        "DATE CAKE": 208.68,
+        "BUTTER CAKE": 202.93,
+        "WATALAPPAN": 260.13
+    }
+}

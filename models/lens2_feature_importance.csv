@@ -1,0 +1,37 @@
+feature,importance
+roll7_mean,34
+roll14_mean,31
+total_qty_lag1,26
+lag_1,25
+dom_sin,21
+lag_21,18
+t_index,17
+lag_14,13
+lag_7,11
+lag_3,11
+dow_sin,10
+month_cos,8
+item_LUNCH,8
+item_ROLLS,7
+roll7_max,7
+roll14_std,7
+roll14_max,7
+item_CHICKEN CURRY,6
+item_BREAKFAST,5
+lag_2,5
+dom_cos,5
+month_sin,4
+dow_cos,3
+item_CHICKEN RICE FULL,3
+quarter,2
+is_weekend,2
+item_WATALAPPAN,2
+roll7_std,2
+is_month_end,0
+is_friday,0
+is_month_start,0
+item_BUTTER CAKE,0
+item_PATIS,0
+item_DATE CAKE,0
+item_SAMOSA,0
+item_TEA,0
